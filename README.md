@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/xxxx.xxxxx"><img src="https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg" alt="arXiv"></a>
-  <a href="https://huggingface.co/datasets/xxx/ESD-plus"><img src="https://img.shields.io/badge/HuggingFace-ESD--plus-yellow" alt="Dataset"></a>
+  <a href="https://huggingface.co/datasets/hlt-cuhksz/ESD-plus"><img src="https://img.shields.io/badge/HuggingFace-ESD--plus-yellow" alt="Dataset"></a>
   <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License">
 </p>
 
@@ -66,7 +66,7 @@ where $G(i) = 2^{\psi(i)} - 1$ and $D(i) = \frac{1}{\log(1+i)}$.
 | Total Audio | ~36.89 hours |
 | Split | 300 / 20 / 30 utterances (train / dev / test) |
 
-Download: [Coming Soon](#)
+Download: [ESD-plus on HuggingFace](https://huggingface.co/datasets/hlt-cuhksz/ESD-plus)
 
 ## Installation
 
