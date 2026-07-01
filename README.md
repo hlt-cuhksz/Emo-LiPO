@@ -180,7 +180,7 @@ Train with listwise preference optimization, initialized from the SFT checkpoint
 ```bash
 # Usage: bash run_stage_5_lipo.sh <ranking_type> <list_length> <lambda_mode> <data_suffix>
 # Example:
-bash run_stage_5_lipo.sh rule 7 index rule
+bash run_stage_5_lipo.sh rule 5 index rule
 ```
 
 **Arguments:**
@@ -193,7 +193,7 @@ bash run_stage_5_lipo.sh rule 7 index rule
 
 **Recommended configuration (default in paper):**
 ```bash
-bash run_stage_5_lipo.sh rule 7 index rule
+bash run_stage_5_lipo.sh rule 5 index rule
 ```
 
 #### Baseline: DPO Training
@@ -222,7 +222,7 @@ python cosyvoice/bin/inference_dpo.py \
     --gpu 0 \
     --result_dir exp/inference_lipo \
     --model_dir pretrained_models/CosyVoice-300M-Instruct \
-    --llm exp/cosyvoice_lipo_rule_7_index_rule_5/llm/torch_ddp/epoch_best.pt
+    --llm exp/cosyvoice_lipo_rule_5_index_rule_5/llm/torch_ddp/epoch_best.pt
 ```
 
 ### Emotion Prompt Format
